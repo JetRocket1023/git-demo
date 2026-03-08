@@ -1,3 +1,6 @@
+# * Git 指令練習
+### Markdown
+- 
 ### 查版本
 - git version	
 
@@ -36,10 +39,11 @@
 - git checkout filename
 - git checkout .
 
-###加入倉庫
+### 加入倉庫
 - git commit -m "專案初始化完成"
+- git commit --amend (跟最新commit合併)
 
-###檢視倉庫
+### 檢視倉庫
 - git log
 - git log --online
 
@@ -71,18 +75,24 @@
 
 ### 申請github
 
-###綁定到雲端
+### 綁定到雲端
 - git remote add origin https://github.com/JetRocket1023/git-demo.git
 
 ### 檢視雲端網址
 - git remote -v
 
-###推送到雲端
+### 推送到雲端
 - git push
 - git push -u origin master (第一次)
+- git push -f
+	-force(強制)
 
-###從雲端拉取
+### 複製專案
+- git clone https://github.com/JetRocket1023/git-demo.git
+
+### 從雲端拉取
 - git pull
+
 
 ### VDCODE
 - ctrl+shift+p
