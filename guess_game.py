@@ -23,8 +23,12 @@ for i in range(count):
     
     # 猜錯
     if x>y:
+        if y>start:
+            start=y+1     
         print("猜大一點")
     else:
+        if y<end:
+            end=y-1
         print("猜小一點")
    
 
