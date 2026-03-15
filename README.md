@@ -98,3 +98,6 @@
 - ctrl+shift+p
 - 更改終端機
 	-default terminal =>cmd.exe
+
+### 重製專案的使用權
+- git remote add origin https://github.com/JetRocket1023/html-demo.git
